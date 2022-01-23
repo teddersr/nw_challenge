@@ -1,0 +1,56 @@
+.card{
+    width: 300px;
+    background-color: var(--colour-white);
+    margin: 20px 0;
+
+    &__image{
+        width: 100%;
+        height: 160px;
+
+        &__price{
+            background-color: var(--colour-price-bg);
+            color: var(--colour-white);
+            font-weight: 700;
+            width: fit-content;
+            margin: auto auto;
+            padding: 10px 12px;
+            font-stretch: extra-condensed;
+            position: relative;
+            top: -25px;
+        }
+    }
+
+    &__content{
+        padding: 15px;
+        text-align: center;
+
+        &__heading{
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        &__summary{
+            font-size: 0.8rem;
+            font-weight: 100;
+            padding: 10px;
+        }
+    }
+
+    &__footer{
+        border-top: 1px solid var(--colour-grey-light);
+        text-align: center;
+
+        &__lessons{
+            padding: 10px 0;
+            
+            &-number{
+                font-weight: 800;
+                font-size: 1rem;
+            }
+            &-text{
+                font-weight: 100;
+                font-size: 0.9rem;
+            }
+        }
+    }
+}

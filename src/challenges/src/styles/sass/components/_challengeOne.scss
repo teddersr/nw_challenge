@@ -1,0 +1,30 @@
+.challengeOne{
+
+    margin-top: 25px;
+
+    &__input{
+        margin: 15px 0 ;
+        padding: 5px;
+    }
+
+    &__button{
+        padding: 8px 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        background-color: var(--colour-primary);
+        color: var(--colour-white);
+        border: none;
+        border-radius: var(--button-border-radius);
+    }
+
+    &__result{
+        width: 100%;
+        padding: 5px;
+    }
+
+    &__errMessage{
+        width: 100%;
+        color: var(--colour-error);
+        padding: 5px;
+    }
+}

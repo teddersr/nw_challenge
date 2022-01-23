@@ -1,0 +1,103 @@
+:root {
+  --button-border-radius: .8rem;
+  --colour-success: #237b4b;
+  --colour-primary: #0078d4;
+  --colour-white: #ffffff;
+  --colour-black: #000000;
+  --colour-neutral-light: #efefef;
+  --colour-grey-light: #dddddd;
+  --colour-error: #bd1622;
+  --colour-price-bg: #df7904; }
+
+.challengeOne {
+  margin-top: 25px; }
+  .challengeOne__input {
+    margin: 15px 0;
+    padding: 5px; }
+  .challengeOne__button {
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: var(--colour-primary);
+    color: var(--colour-white);
+    border: none;
+    border-radius: var(--button-border-radius); }
+  .challengeOne__result {
+    width: 100%;
+    padding: 5px; }
+  .challengeOne__errMessage {
+    width: 100%;
+    color: var(--colour-error);
+    padding: 5px; }
+
+.card {
+  width: 300px;
+  background-color: var(--colour-white);
+  margin: 20px 0; }
+  .card__image {
+    width: 100%;
+    height: 160px; }
+    .card__image__price {
+      background-color: var(--colour-price-bg);
+      color: var(--colour-white);
+      font-weight: 700;
+      width: fit-content;
+      margin: auto auto;
+      padding: 10px 12px;
+      font-stretch: extra-condensed;
+      position: relative;
+      top: -25px; }
+  .card__content {
+    padding: 15px;
+    text-align: center; }
+    .card__content__heading {
+      margin-bottom: 10px;
+      font-size: 1.1rem; }
+    .card__content__summary {
+      font-size: 0.8rem;
+      font-weight: 100;
+      padding: 10px; }
+  .card__footer {
+    border-top: 1px solid var(--colour-grey-light);
+    text-align: center; }
+    .card__footer__lessons {
+      padding: 10px 0; }
+      .card__footer__lessons-number {
+        font-weight: 800;
+        font-size: 1rem; }
+      .card__footer__lessons-text {
+        font-weight: 100;
+        font-size: 0.9rem; }
+
+.challengeFour__heading {
+  font-size: 1.1rem; }
+
+.challengeFour__button-group-text {
+  margin: 10px 0; }
+
+.challengeFour__button-group-button {
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: var(--colour-primary);
+  color: var(--colour-white);
+  border: none;
+  border-radius: var(--button-border-radius); }
+
+.challengeFour__list {
+  list-style: decimal; }
+  .challengeFour__list-item {
+    font-size: 0.85rem; }
+
+body {
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  background-color: var(--colour-neutral-light);
+  color: var(--colour-black); }
+
+.App {
+  width: 80%;
+  margin: auto auto; }

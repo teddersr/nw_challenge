@@ -1,0 +1,27 @@
+.challengeFour{
+    &__heading{
+        font-size: 1.1rem;
+    }
+    &__button-group{
+
+        &-text{
+            margin: 10px 0;
+        }
+
+        &-button{
+            padding: 8px 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            background-color: var(--colour-primary);
+            color: var(--colour-white);
+            border: none;
+            border-radius: var(--button-border-radius);
+        }
+    }
+    &__list{
+        list-style: decimal;
+        &-item{
+            font-size: 0.85rem;
+        }
+    }
+}
